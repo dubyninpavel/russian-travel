@@ -2,6 +2,7 @@
     width: 176px;
     height: 52px;
     background-image: url(../../../source/header__logo.svg);
+    margin: 28px 0 0 48px;
 
     border: 1px solid red;
 }

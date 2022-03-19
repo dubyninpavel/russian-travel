@@ -8,3 +8,4 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/language/language.css);
 @import url(../blocks/language/__link/language__link.css);
+@import url(../blocks/language/__link/_ru/language__link_ru.css);
