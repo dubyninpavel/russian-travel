@@ -1,0 +1,7 @@
+.language {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    
+    border: 1px solid red;
+}
