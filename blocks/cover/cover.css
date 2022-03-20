@@ -1,0 +1,17 @@
+.cover {
+    padding: 245px 312px;
+    background-image: url(../../source/cover-station.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 93px;
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}

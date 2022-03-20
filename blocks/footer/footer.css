@@ -1,0 +1,9 @@
+.footer {
+    border: 1px solid red;
+}
+
+.rt {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid green;
+}
