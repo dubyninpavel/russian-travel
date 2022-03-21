@@ -5,6 +5,11 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
+}
 
-    border: 1px solid red;
+@media(max-width: 349px) {
+    .language__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

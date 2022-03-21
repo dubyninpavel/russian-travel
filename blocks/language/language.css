@@ -1,7 +1,17 @@
 .language {
     display: flex;
-    margin: 46px 48px 6px 0;
+    margin: 48px 48px 0 0;
     align-items: flex-start;
+}
 
-    border: 1px solid red;
+@media(min-width: 350px) and (max-width: 800px) {
+    .language {
+        margin: 48px 24px 0 0;
+    }
+}
+
+@media(max-width: 349px) {
+    .language {
+        margin: 31px 16px 0 0;  
+    }
 }

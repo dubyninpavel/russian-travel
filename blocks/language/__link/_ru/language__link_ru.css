@@ -1,4 +1,10 @@
 .language__link_ru {
     text-decoration-line: underline;
-    margin-right: 18px;
+    margin-right: 19px;
+}
+
+@media(min-width: 350px) and (max-width: 800px) {
+    .language__link_ru {
+        margin-right: 19px;
+    }
 }
