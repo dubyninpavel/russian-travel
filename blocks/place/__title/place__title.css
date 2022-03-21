@@ -3,7 +3,27 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
-    
+    grid-area: "title";
+    width: min-content;
+}
 
-    border: 1px solid red;
+@media(min-width: 350px) and (max-width: 800px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media(max-width: 600px) {
+    .place__title {
+        width: max-content;
+    }
+}
+
+@media(max-width: 349px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+    }
 }

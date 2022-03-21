@@ -2,5 +2,14 @@
     margin: 92px 44px 24px 48px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    max-width: 1184px;
+}
+
+@media(max-width: 750px) {
+    .footer__container {
+       flex-direction: column; 
+       justify-content: flex-start;
+       align-items: flex-start;
+       margin: 0;
+    }
 }

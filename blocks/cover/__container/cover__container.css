@@ -1,0 +1,37 @@
+.cover__container {
+    background-image: url(../../../source/cover-station.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 14px;
+    max-width: 1184px;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover__container::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media(min-width: 801px) and (max-width: 1100px) {
+    .cover__container {
+        max-width: 1184px;
+        min-height: 545px;
+        
+    }
+}
+
+@media(max-width: 600px) {
+    .cover__container {
+        max-width: 320px;
+        min-height: 200px;
+        margin: auto;
+    }
+}

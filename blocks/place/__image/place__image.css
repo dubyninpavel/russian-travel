@@ -1,5 +1,24 @@
 .place__image {
+    grid-area: "image";
     width: 460px;
     max-width: 100%;
-    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+@media(min-width: 801px) and (max-width: 1100px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media(min-width: 350px) and (max-width: 800px) {
+    .place__paragraph {
+        width: 340px;
+    }
+}
+
+@media(max-width: 349px) {
+    .place__paragraph {
+        width: 100%;
+    }
 }
