@@ -7,9 +7,20 @@
     text-decoration: none;
 }
 
+.language__link_ru:first-of-type {
+    text-decoration-line: underline;
+    margin-right: 19px;
+}
+
 @media(max-width: 349px) {
     .language__link {
         font-size: 18px;
         line-height: 20px;
+    }
+}
+
+@media(min-width: 350px) and (max-width: 800px) {
+    .language__link_ru:first-of-type {
+        margin-right: 19px;
     }
 }

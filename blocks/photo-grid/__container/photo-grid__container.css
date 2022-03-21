@@ -5,6 +5,8 @@
     gap: 16px;
     margin: 92px 48px 0;
     min-width: calc(100% - 96px);
+    list-style-type: none;
+    padding: 0;
 }
 
 @media(min-width: 801px) and (max-width: 1100px) {

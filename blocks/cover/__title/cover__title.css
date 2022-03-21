@@ -5,6 +5,7 @@
     text-align: center;
     margin: 0 0 32px 0;
     position: relative;
+    color: white;
 }
 
 @media(min-width: 801px) and (max-width: 1100px) {
