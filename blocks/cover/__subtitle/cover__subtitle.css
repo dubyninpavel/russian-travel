@@ -6,6 +6,7 @@
     margin: 0;
     color: white;
     position: relative;
+    max-width: min-content;
 }
 
 @media(max-width: 600px) {

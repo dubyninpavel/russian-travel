@@ -4,6 +4,7 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    max-width: min-content;
 }
 
 @media(max-width: 700px) {
