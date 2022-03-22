@@ -7,11 +7,6 @@
     text-decoration: none;
 }
 
-.language__link:first-of-type {
-    text-decoration-line: underline;
-    margin-right: 19px;
-}
-
 @media(max-width: 350px) {
     .language__link {
         font-size: 18px;
