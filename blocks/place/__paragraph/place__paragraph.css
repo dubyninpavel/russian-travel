@@ -16,3 +16,9 @@
         line-height: 163%;
     }
 }
+
+@media(max-width: 349px) {
+    .place__paragraph {
+        margin: 0 16px;
+    }
+}

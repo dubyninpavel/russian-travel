@@ -2,7 +2,7 @@
     padding: 93px 48px 0;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1150px) {
     .cover {
         padding: 0;
     }
