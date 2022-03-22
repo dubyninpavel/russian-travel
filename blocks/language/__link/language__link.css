@@ -12,7 +12,7 @@
     margin-right: 19px;
 }
 
-@media(max-width: 349px) {
+@media(max-width: 350px) {
     .language__link {
         font-size: 18px;
         line-height: 20px;
