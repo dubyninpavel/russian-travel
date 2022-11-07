@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.language__link:hover {
+    opacity: .5;
+}
+
 @media(max-width: 350px) {
     .language__link {
         font-size: 18px;
